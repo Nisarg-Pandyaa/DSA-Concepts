@@ -1,0 +1,6 @@
+- If Array Is Circular, </br> </br>
+  - To Traverse Clockwise : `(i+1)%n`
+  - To Traverse AntiClockwise : `(i-1+n)%n` </br> </br>
+  - Circular Distance, 
+    - Direct Distance : `0`,...`LeftIndex` `->` `RigthIndex`,...`(n-1)` = `|RightIndex - LeftIndex|`
+    - Circular Distance : `<-` `0` `<-` `LeftIndex`,....,`RightIndex` `<-` `(n-1)` `<-` = `n - |RightIndex - LeftIndex|`
