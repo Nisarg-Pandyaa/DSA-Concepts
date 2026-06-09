@@ -11,3 +11,8 @@
 
 ----
 - `for(int i=0;i<n;i++)` is faster than `for(int num : arr)`
+----
+
+# Series Sum
+- 1+3+5+7+... => `n*n`
+- 2+4+6+8+... => `n*(n+1)`
