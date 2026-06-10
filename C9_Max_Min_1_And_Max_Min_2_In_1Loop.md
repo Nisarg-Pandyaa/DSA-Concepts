@@ -10,6 +10,12 @@
             else if(n>max2){
                 max2 = n;
             }
+
+            if(n<min2){
+                min1 = min2;
+                min2 = n;
+            }
+            else if(n<min1) min1 = n;
             
         }
 ```
