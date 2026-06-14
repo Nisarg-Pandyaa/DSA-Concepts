@@ -6,7 +6,7 @@
         int min2 = Integer.MAX_VALUE;
 
         for(int n : nums){
-            if(n>max1){
+            if(n>=max1){
                 max2= max1;
                 max1 = n;
             }
@@ -14,7 +14,7 @@
                 max2 = n;
             }
 
-            if(n<min2){
+            if(n<=min2){
                 min1 = min2;
                 min2 = n;
             }
