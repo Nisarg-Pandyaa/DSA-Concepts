@@ -13,4 +13,4 @@ for(int[] arr : edges){
       graph[arr[0]].add(arr[1]);
 }
 
-return dfs(graph,baseTime,0);
+return dfs(graph,0);
